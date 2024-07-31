@@ -1,0 +1,41 @@
+// import 'package:desempenho_esportivo/_comum/minhas_cores.dart';
+// import 'package:flutter/material.dart';
+
+// class Background extends StatelessWidget {
+//   const Background({
+//     super.key,
+//     required this.titulo,
+//     required this.fundo,
+//   });
+//   final String titulo;
+//   final String fundo;
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       backgroundColor: MinhasCores.cinza,
+//       body: Stack(
+//         children: [
+//           Positioned.fill(
+//             child: Image.asset(
+//               fundo,
+//               fit: BoxFit.fill,
+//             ),
+//           ),
+//           Column(
+//             children: [
+//               Text(
+//                 titulo,
+//                 style: const TextStyle(
+//                   color: MinhasCores.branco,
+//                   fontFamily: 'StretchPro',
+//                   fontSize: 20,
+//                 ),
+//               ),
+//             ],
+//           )
+//         ],
+//       ),
+//     );
+//   }
+// }
